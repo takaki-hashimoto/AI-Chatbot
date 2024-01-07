@@ -46,7 +46,7 @@ const chatList = {
     2: {text: '突然ですが、１つお聞かせください。', continue: true, option: 'normal'},
     3: {text: {title: 'Q1', question: '興味のあるものを１つ選んでください。', choices: ['製作者 について', 'チャットボット とは', '30s クイズアプリ', 'ToDo リスト']}, continue: false, option: 'choices', questionNextSupport: true}, // questionNextSupportは次に質問に対する詳細を投稿するかどうか
     // userCount1：Q1
-    4: {text: ['https://mf3px.sakura.ne.jp/', 'https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%83%9C%E3%83%83%E3%83%88', 'https://gallery.flutter.dev/', 'https://www.town.shimane-misato.lg.jp/misatoto/'], continue: true, option: 'normal', link: true},
+    4: {text: ['https://takaki-hashimoto.github.io/portfolio1/', 'https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%83%9C%E3%83%83%E3%83%88', 'https://takaki-hashimoto.github.io/QuizApp/', 'https://takaki-hashimoto.github.io/ToDoList/'], continue: true, option: 'normal', link: true},
     5: {text: '進みたい場合は、上のリンクをクリックしてください。', continue: true, option: 'normal'},
     6: {text: 'そうでない場合は、以下の質問にお応えください。', continue: true, option: 'normal'},
     7: {text: 'あなたのお名前は何ですか？', continue: false, option: 'normal'},
